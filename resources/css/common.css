@@ -1,0 +1,147 @@
+
+/*********************
+	Global Styles
+***********************/
+
+article,section,header,main,footer,aside,nav{
+	display: block;
+}
+
+html,body,div,p,h1,h2{
+	margin:0;
+	padding:0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	margin:0 auto;
+	width:100%;
+	font-size: 1.6rem;
+    height: 100%;
+    background:linear-gradient(to right,rgba(51,51,255,0.2),rgba(255,255,255,0.2) 40% ,rgba(65,255,51,0.15) 80%);
+}
+
+.clear-fix::before{
+	content: "";
+	display: table;
+}
+.clear-fix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*********************
+	Header Styles
+***********************/
+
+header{
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1px;
+    /* background:linear-gradient(to right,rgba(51,51,255,0.2),rgba(255,255,255,0.2) 40% ,rgba(65,255,51,0.2) 80%);*/
+}
+
+header div{
+	float: left;
+}
+
+header .ysr-logo{
+   background-image:url('../images/ysr.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   width:15rem;
+   height:10rem;
+}
+
+header .center-div{
+    width:calc(100% - 30rem);
+    height: 10rem;
+    line-height: 9rem;
+    /* background-image:url('../images/ysr_jagan.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center; */
+}
+
+header .ysrcp-logo{
+   background-image:url('../images/ysrcp_flag.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+    background-position: center;
+   width:15rem;
+   height:10rem;
+}
+
+header h1{
+	text-align: center;
+    font-size: 6rem;
+    color:#21698c;
+}
+
+/***** nav Styles *****/
+
+.main-navigation{
+    clear: both;
+    border-top: 1px solid #ddd;
+    background: rgba(33, 105, 140, 0.8);
+    color: #fff;
+}
+.main-navigation ul{
+    width:100%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.main-navigation li{
+   float: left;
+    width: 12.5%;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1.2rem 0rem;
+   cursor: pointer;
+}
+
+.main-navigation li:hover{
+    background:rgba(33, 105, 140, 1);
+}
+
+
+
+/*********************
+	Main Article Styles
+***********************/
+main{
+	height: calc(100% - 22rem);
+	width:90%;
+	margin:0 auto;
+}
+
+
+
+ 
+/*********************
+	Footer Styles
+***********************/
+footer{
+     /* background:linear-gradient(to right,rgba(51,51,255,0.2),rgba(255,255,255,0.2) 40% ,rgba(65,255,51,0.2) 80%); */
+	padding: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color:#21698c;
+    border-top: 1px solid #ccc;
+}
+
+
+/*********************
+	Third Party Styles
+***********************/
